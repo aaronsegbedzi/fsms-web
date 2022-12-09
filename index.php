@@ -35,7 +35,7 @@ require($_SERVER['DOCUMENT_ROOT']."/include/config.php");
     <div class="d-flex align-items-center justify-content-center bg-corporate ht-100v">
       <div class="login-wrapper wd-300 wd-lg-400 wd-xs-400 pd-10 pd-xs-40 bg-white rounded shadow-base">
         <div class="signin-logo tx-center">
-          <img src="/assets/media/img/logo/logo.png" width="40%">
+          <img src="/assets/media/img/logo/logo.png" width="35%">
         </div>
         <hr>
         <form id="login-form">
