@@ -84,11 +84,11 @@ require($_SERVER['DOCUMENT_ROOT']."/include/config.php");
         </form>
         <!-- form -->
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12" style="font-size: 10px !important;">
             <p>Demonstration Credentials</p>
-            <p>Administrator: Username: admin | Password: 12345678</p>
-            <p>Manager: Username: manager | Password: 12345678</p>
-            <p>Subscriber: Username: subscriber | Password: 12345678</p>
+            <p>Administrator:<br/>Username: admin | Password: 12345678</p>
+            <p>Manager:<br/>Username: manager | Password: 12345678</p>
+            <p>Subscriber:<br/>Username: subscriber | Password: 12345678</p>
           </div>
         </div>      
       </div>
