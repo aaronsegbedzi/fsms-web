@@ -90,7 +90,14 @@ require($_SERVER['DOCUMENT_ROOT']."/include/config.php");
             <p>Manager:<br/>Username: manager | Password: 12345678</p>
             <p>Subscriber:<br/>Username: subscriber | Password: 12345678</p>
           </div>
-        </div>      
+        </div>
+        <div class="row">
+          <div class="col-md-12" style="font-size: 10px !important;">
+            <p>Created by Aaron S. Segbedzi<br>
+              <a href="https://github.com/aaronsegbedzi">GitHub</a> | <a href="https://www.linkedin.com/in/aaronssegbedzi">LinkedIn</a>
+            </p>
+          </div>
+        </div>       
       </div>
       <!-- login-wrapper -->
     </div>
