@@ -1,22 +1,22 @@
-$(function () {
+$(function() {
 
     // Set global API url stored in browser local storage.
     localStorage.setItem('api',
-        'http://service.cocoware.co.uk');
+        'https://service.cocoware.co.uk');
 
     // Show password on user click event.
     $("#show_password").on('mousedown',
-        function () {
+        function() {
             $("#password").get(0).type =
                 'text';
         }).on('mouseup mouseleave',
-        function () {
+        function() {
             $("#password").get(0).type =
                 'password';
         });
 
     // Login form submit function.
-    $("#login-form").submit(function (
+    $("#login-form").submit(function(
         event) {
         event.preventDefault();
         var data = $(this).serialize();
@@ -26,18 +26,18 @@ $(function () {
                 'api') + '/v1/auth.php',
             data: data,
             statusCode: {
-                401: function () {
+                401: function() {
                     swal("Unauthorized Access.",
                         "Your account username or password is incorrect.",
                         "error");
                 },
-                404: function () {
+                404: function() {
                     swal("Unauthorized Access.",
                         "Your account username or password is incorrect.",
                         "error");
                 }
             },
-            success: function (response) {
+            success: function(response) {
                 if ($.trim(response.redirect) ==
                     'change_password') {
                     window.location.href =
@@ -51,16 +51,16 @@ $(function () {
                         timer: 2000,
                         button: false,
                         closeOnClickOutside: false
-                    }).then(function () {
+                    }).then(function() {
                         // Send auth token to user session handler.
                         $.get(
                             "/include/session.php", {
                                 token: response
                             },
-                            function (result) {
+                            function(result) {
                                 var role;
                                 $.each(result,
-                                    function (key, val) {
+                                    function(key, val) {
                                         // Set user session id.
                                         localStorage.setItem(
                                             'id', val.id);
@@ -102,17 +102,17 @@ $(function () {
 
                                 if (role == '2') {
                                     window.location.href =
-                                    "/station/view.php";
+                                        "/station/view.php";
                                 } else {
                                     window.location.href =
-                                    "/dashboard.php";
+                                        "/dashboard.php";
                                 }
-                                
+
                             });
                     });
                 }
             },
-            error: function (status) {
+            error: function(status) {
                 swal('Service Unavailable',
                     'Unable to establish connection with server.',
                     'error');
