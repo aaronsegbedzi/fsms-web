@@ -2,7 +2,7 @@ $(function() {
 
     // Set global API url stored in browser local storage.
     localStorage.setItem('api',
-        'https://service.cocoware.co.uk');
+        'https://fsms-api.cocoware.co.uk');
 
     // Show password on user click event.
     $("#show_password").on('mousedown',
