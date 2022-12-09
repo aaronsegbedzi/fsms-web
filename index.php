@@ -82,7 +82,15 @@ require($_SERVER['DOCUMENT_ROOT']."/include/config.php");
           </div>
           <!-- form-group -->
         </form>
-        <!-- form -->      
+        <!-- form -->
+        <div class="row">
+          <div class="col-md-12">
+            <p>Demonstration Credentials</p>
+            <p>Administrator: Username: admin | Password: 12345678</p>
+            <p>Manager: Username: manager | Password: 12345678</p>
+            <p>Subscriber: Username: subscriber | Password: 12345678</p>
+          </div>
+        </div>      
       </div>
       <!-- login-wrapper -->
     </div>
