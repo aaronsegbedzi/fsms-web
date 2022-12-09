@@ -89,10 +89,6 @@ require($_SERVER['DOCUMENT_ROOT']."/include/config.php");
             <p class="text-center">Administrator<br/>Username: admin | Password: 12345678</p>
             <p class="text-center">Manager<br/>Username: manager | Password: 12345678</p>
             <p class="text-center">Subscriber<br/>Username: subscriber | Password: 12345678</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12" style="font-size: 10px !important;">
             <p class="text-center">Created by Aaron S. Segbedzi<br>
               <a href="https://github.com/aaronsegbedzi">GitHub</a> | <a href="https://www.linkedin.com/in/aaronssegbedzi">LinkedIn</a>
             </p>
