@@ -85,7 +85,7 @@ require($_SERVER['DOCUMENT_ROOT']."/include/config.php");
         <!-- form -->
         <div class="row">
           <div class="col-md-12" style="font-size: 10px !important;">
-            <p>Demonstration Credentials</p>
+            <p class="text-center">Demonstration Credentials</p>
             <p>Administrator:<br/>Username: admin | Password: 12345678</p>
             <p>Manager:<br/>Username: manager | Password: 12345678</p>
             <p>Subscriber:<br/>Username: subscriber | Password: 12345678</p>
@@ -93,7 +93,7 @@ require($_SERVER['DOCUMENT_ROOT']."/include/config.php");
         </div>
         <div class="row">
           <div class="col-md-12" style="font-size: 10px !important;">
-            <p>Created by Aaron S. Segbedzi<br>
+            <p class="text-center">Created by Aaron S. Segbedzi<br>
               <a href="https://github.com/aaronsegbedzi">GitHub</a> | <a href="https://www.linkedin.com/in/aaronssegbedzi">LinkedIn</a>
             </p>
           </div>
