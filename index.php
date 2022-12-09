@@ -89,7 +89,7 @@ require($_SERVER['DOCUMENT_ROOT']."/include/config.php");
               <br/>Administrator<br/>Username: admin | Password: 12345678
               <br/>Manager<br/>Username: manager | Password: 12345678
               <br/>Subscriber<br/>Username: subscriber | Password: 12345678
-              <br/>Created by Aaron S. Segbedzi
+              <br/><br/>Created by Aaron S. Segbedzi
               <br/><a href="https://github.com/aaronsegbedzi">GitHub</a> | <a href="https://www.linkedin.com/in/aaronssegbedzi">LinkedIn</a>
             </p>
           </div>
